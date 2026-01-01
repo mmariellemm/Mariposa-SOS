@@ -1,0 +1,205 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');*/
+
+
+
+
+
+.pixelify-sans {
+					font-family: "Pixelify Sans", sans-serif;
+					font-optical-sizing: auto;
+					/* font-weight: <weight>; */
+					font-style: normal;
+				}
+body {
+background: linear-gradient(120deg, #258204, #00C7FF)
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.carousel-item {
+
+	height: 100vh;
+	min-height: 300px;
+	text-align: center;
+}
+
+
+
+
+
+.carousel-caption {
+	bottom: 120px;
+	z-index: 2;
+}
+
+.carousel-caption h5 {
+	font-family: 'Pixelify Sans', serif;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+
+}
+
+.carousel-caption p {
+	font-family: 'Pixelify Sans', serif;
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4); /*COLOR DE "FILTRO" PARA LAS IMAGENES EN CARRUSEL*/
+	z-index: 1;
+}
+.SobreJuego h1,h2,h3,h4,h5,h6 {
+	font-family: 'Pixelify Sans', serif;
+
+}
+.Personajes p{
+	font-family: 'Pixelify Sans', serif;
+	font-size: 18px;
+}
+.NavbarFont a{
+	font-family: 'Pixelify Sans', 'serif';
+	font-size: 33px;
+}
+
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #8f3838;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+	color: #0000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #4F2D00;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+
+.w-100 {
+	height: 100vh;
+}
+
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #10000; /*COLOR DEL ICONO QUE AL PONER MAS PEQUEÑA LA PANTALLA APARECEN RAYITAS PARA LA INFO*/
+}
+
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(7, 128, 81, 0.747); /*SOMBRA ATRAS DE LAS TARJETAS DE LOS PERSONAJES*/
+
+}
+
+
+/*==
+
+.team .card {
+	box-shadow: 15px 15px 40px rgba(167, 16, 16, 0.15);
+}
+
+==*/
+
+
+.services .card-body i {
+	font-size: 50px;
+}
+
+.team .card-body i {
+	font-size: 20px;
+}
+
+
+
+
+/* === RESPONSIVE CSS === */
+
+@media only screen and (min-width: 390px) and (max-width: 980px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+	.carousel-caption h5 {
+		font-size: 50px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 40px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 40px;
+	}
+	.SobreJuego h1,h2,h3,h4,h5,h6 {
+		font-family: 'Pixelify Sans', serif;
+		font-size: 38px;
+	}
+	.Personajes p{
+		font-family: 'Pixelify Sans', serif;
+		font-size: 38px;
+	}
+}
+
+.GaleriaEnemigos{
+	min-height: 100vh;
+	width: 90%;
+	outline: 10px solid #000;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(500px,100%),1fr));
+	gap: 30px;
+}
+
+.Galeria_img{
+
+	width: 100%;
+	height: 100%;
+}
+
+

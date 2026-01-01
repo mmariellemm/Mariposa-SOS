@@ -1,0 +1,47 @@
+body {
+    /*background-image: url('ruta/a/tu/fondo.jpg'); */
+
+    background:-webkit-linear-gradient(180deg, #ffc300, #ff8b00);
+}
+
+.login-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    display: flex;
+    padding: 80px ;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+.container-fluid{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.loginscreen.middle-box {
+    width: 350px;
+
+}
+
+.left-column {
+    padding: 50px;
+    text-align: center; /* Alinea el contenido del logo al centro */
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 1.5em  10px;
+    border-radius: 20px;
+}
+
+.AutoRegistroFondo{
+
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 100%;
+}
