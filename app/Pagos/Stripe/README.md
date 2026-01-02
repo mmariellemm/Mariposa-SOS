@@ -53,7 +53,7 @@ If you use Composer, these dependencies should be handled automatically. If you 
 Simple usage looks like:
 
 ```php
-$stripe = new \Stripe\StripeClient('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
+$stripe = new \Stripe\StripeClient(''); // Aquí va la Llave/Clave Secreta de Stripe (Stripe Test API Secret Key)
 $customer = $stripe->customers->create([
     'description' => 'example customer',
     'email' => 'email@example.com',
